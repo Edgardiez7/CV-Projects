@@ -1,0 +1,63 @@
+.log-in{
+    position: relative;
+    float: left;
+    border: solid;
+    width: 260px;
+    height: 140px;
+    padding: 5mm;
+    margin: 5mm;
+    background-color: rgb(217, 240, 217);
+}
+
+#logins{
+    width: 60%;
+    margin-left: 25.2%;
+}
+
+#registros{
+    width: 40%;
+    margin-left: 25.2%;
+}
+
+.registro{
+    position: relative;
+    float: left;
+    border: solid;
+    width: 190px;
+    height: 80px;
+    padding: 5mm;
+    margin: 5mm;
+    background-color: lightgoldenrodyellow;
+}
+#titulo-pagina{
+    float: left;
+    font-size: 25pt;
+    color: black;
+}
+.titulo{
+    font-size: 15pt;
+    color: black;
+}
+
+label{
+    margin: 0.5mm;
+}
+input{
+    margin: 0.5mm;
+}
+.boton-login{
+    margin: 5mm;
+    margin-left: 40%;
+    background-color: rgb(178, 201, 78);
+    width: 65px;
+    height: 40px;
+    font-size: 15pt;
+}
+.boton-registro{
+    margin: 5mm;
+    margin-left: 30%;
+    background-color: rgb(231, 186, 39);
+    width: 80px;
+    height: 40px;
+    font-size: 15pt;
+}

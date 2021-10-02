@@ -1,0 +1,41 @@
+#titulo-pagina{
+    float: left;
+    font-size: 25pt;
+    color: black;
+}
+
+#titulo{
+    font-size: 19pt;
+    color: black;
+    font-weight: bold;
+}
+
+#registroPrincipal{
+    float: left;
+    border: solid;
+    width: 40%;
+    height: 100%;
+    padding: 10mm;
+    padding-top: 2mm;
+    margin: 5mm;
+    margin-top: 15mm;
+    background-color:lightgrey;
+}
+
+input {
+    margin: 4mm;
+    margin-left: 20mm;
+}
+
+label{
+    width: 210px;
+    display: inline-block;
+    font-size: 12pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#aclaracion{
+    font-size: 9pt;
+    color: red;
+}

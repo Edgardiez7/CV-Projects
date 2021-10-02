@@ -1,0 +1,57 @@
+#pop-up{
+    text-align:center;
+    border: solid;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+#menu{
+    margin-left: 35%;
+    margin-bottom: 1%;
+    text-align:left;
+}
+
+#turismo{
+    text-align:center;
+    position: relative;
+    float: left;
+    margin: 4.5mm;
+ 
+}
+#desplazamiento{
+    text-align:center;
+    position: relative;
+    float: left;
+    margin: 4.5mm;
+}
+#alojamiento{
+    text-align:center;
+    position: relative;
+    float: left;
+    margin: 4.5mm;
+}
+
+#titulo-pagina{
+    font-size: 25pt;
+    line-height: 50px;
+    color: black;
+}
+
+#textmov{
+    margin: 0 auto;
+    padding-right: 8%;
+}
+
+a{
+    color:black;
+    text-emphasis:initial;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline; 
+}
+
+#titulo{
+    font-weight: bold;
+}

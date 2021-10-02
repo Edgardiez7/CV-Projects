@@ -1,0 +1,55 @@
+#titulo-pagina{
+    float: left;
+    font-size: 25pt;
+    color: black;
+}
+#titulo{
+    font-size: 19pt;
+    color: black;
+    font-weight: bold;
+}
+
+#formulario{
+    float:left;
+    border: solid;
+    width: 40%;
+    height: 100%;
+    padding: 10mm;
+    margin: 5mm;
+    margin-left: 30mm;
+    margin-top: 15mm;
+    background-color:lightgrey;
+}
+
+input {
+    margin: 4mm;
+    margin-left: 10mm;
+}
+
+#imagen{
+    margin-left:0%;
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    width: 180px;
+    display: inline-block;
+    font-size: 12pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#descripcion{
+    margin: 4mm;
+    margin-left: 10mm;
+}
+
+#radio{
+    text-decoration: none;
+}
+
+#aclaracion{
+    font-size: 9pt;
+    color: red;
+}

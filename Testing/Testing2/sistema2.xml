@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sistema>
+  <estacion idEst="est1">
+    <coordenadas>
+      <latitud>23.9</latitud>
+      <longitud>90.0</longitud>
+    </coordenadas>
+    <puntoRecogida estado="OCUPADO" idPR="pr1"/>
+  </estacion>
+</sistema>

@@ -1,0 +1,35 @@
+.background1{
+    background-color: #E8E8E8;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+.pregunta{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.respuesta{
+    margin-left: 20px;
+    margin-right: 25%;
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    margin-bottom:-30px;
+    text-align: center;
+    font-size:30pt;
+    text-decoration: underline;
+}
+h3{
+    margin-left:40px;
+    font-size:22pt;
+    text-decoration: underline;
+}
+.saber{
+    margin-left: 300px;
+    margin-right: 25%;
+    font-size: 25px;    
+}

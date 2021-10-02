@@ -1,0 +1,6 @@
+projectKey=es.uva.inf.ds20-21-02
+serverUrl=https://sonarqube.inf.uva.es
+serverVersion=7.3.0.15553
+dashboardUrl=https://sonarqube.inf.uva.es/dashboard?id=es.uva.inf.ds20-21-02
+ceTaskId=AXn3UCYDjNEMpixQ0Vhu
+ceTaskUrl=https://sonarqube.inf.uva.es/api/ce/task?id=AXn3UCYDjNEMpixQ0Vhu

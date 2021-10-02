@@ -1,0 +1,56 @@
+#principal {
+  text-align: center;
+  margin: 20px 80px;
+  background-color:#ff9999;
+  width: 90%;
+  float:left;
+}
+#desplazamiento {
+  width: 40%;
+  float: left;
+  text-align: center;
+  margin-left:100px; 
+  margin-bottom: 20px;
+  background-color: #b3f0ff; 
+}
+#alojamiento {
+  width: 40%;
+  float: right;
+  text-align: center;
+  margin-right: 100px; 
+  margin-bottom: 20px;
+  background-color: #ccffcc; 
+}
+#principal:link, #principal:visited {
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+#alojamiento:link, #alojamiento:visited {
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+#desplazamiento:link, #desplazamiento:visited {
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+#alojamiento:link, #alojamiento:visited {
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.titulo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size:30pt;
+}
+.imagenprincipal {
+  width:90%;
+}
+.imagensecundaria {
+  width:60%;
+  height: 250px;
+}

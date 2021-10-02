@@ -1,0 +1,24 @@
+.titulo{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo a:hover{
+    text-decoration: underline;
+}
+#contenido_ayuda{
+    margin-top: 30mm;
+    margin-bottom: 30mm;
+    column-rule-color: lightgray;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 5;
+    text-align: center;
+
+}

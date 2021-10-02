@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;tds_pr4_edgdiez.p4.Sistema.añadirEstacion(...)&apos; to &apos;annadirEstacion&apos;&#x0A;- Original project: &apos;tds-pr4-edgdiez&apos;&#x0A;- Original element: &apos;tds_pr4_edgdiez.p4.Sistema.añadirEstacion(...)&apos;&#x0A;- Renamed element: &apos;tds_pr4_edgdiez.p4.Sistema.annadirEstacion(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;añadirEstacion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;tds_pr4_edgdiez.p4{Sistema.java[Sistema~añadirEstacion~QEstacion;" name="annadirEstacion" references="true" stamp="1610636616796" version="1.0"/>
+</session>
