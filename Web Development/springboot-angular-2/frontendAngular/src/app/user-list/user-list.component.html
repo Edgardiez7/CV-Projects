@@ -1,0 +1,63 @@
+<p *ngIf="showMessage">{{message}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <form class="form-inline">
+                <fieldset class="form-group col-sm-1">
+                    <a class="btn btn-primary" [routerLink]="['/users/new']">+</a>
+                </fieldset>
+                <fieldset class="form-group col-sm-1">
+                    <input type="number" min="0" id="num" name="num" placeholder="#id" #num>
+                </fieldset>
+                <fieldset class="form-group col-sm-4">
+                    <a class="btn btn-primary" (click)="getUser(num.valueAsNumber)">🔎</a>
+                </fieldset>
+                <fieldset class="form-group col-sm-2">
+                    <a class="btn btn-primary" (click)="getUsers_AccesoResponse()">🔎 all Users</a>
+                </fieldset>
+                <fieldset class="form-group col-sm-2">
+                    <a class="btn btn-primary" (click)="getUsersEnabled(true)">🔎 enabled Users</a>
+                </fieldset>
+                <fieldset class="form-group col-sm-2">
+                    <a class="btn btn-primary" (click)="getUsersEnabled(false)">🔎 disabled Users</a>
+                </fieldset>
+
+            </form>
+            <table class="table table-striped">
+                <thead>
+                    <tr class="row">
+                        <th>Nick</th>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                        <th>Enabled</th>
+                        <th>CreatedAt</th>
+                        <th>UpdatedAt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of Users" class="row">
+                        <td><i>{{user.nick}}</i></td>
+                        <td><i>{{user.firstName}}</i></td>
+                        <td><i>{{user.lastName}}</i></td>
+                        <td><i>{{user.email}}</i></td>
+                        <td><i>{{user.enabled}}</i></td>
+                        <td><i>{{user.createdAt | date:'short':'+0100'}}</i></td>
+                        <td><i>{{user.updatedAt | date:'short':'+0100'}}</i></td>
+                        <td><a class="btn btn-info" [routerLink]="['/users', user.id, 'edit']"> Edit </a> </td>
+                        <td><a class="btn btn-danger" (click)="delete(user.id)">-</a></td>
+                        <td><input type="checkbox" class="checkbox" (click)="addEnabled(user.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="enableButtons">
+                <fieldset class="form-group col-sm-6">
+                    <a class="btn btn-primary" (click)="setEnabled(true)">✅</a>
+                </fieldset>
+                <fieldset class="form-group col-sm-2">
+                    <a class="btn btn-primary" (click)="setEnabled(false)">❌</a>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>

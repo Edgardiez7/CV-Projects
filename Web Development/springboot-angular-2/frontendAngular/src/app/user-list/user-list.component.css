@@ -1,0 +1,10 @@
+#num {
+  width: 80px;
+}
+.table {
+  margin-top: 50px;
+}
+#enableButtons {
+  position: absolute;
+  right: 0px;
+}
