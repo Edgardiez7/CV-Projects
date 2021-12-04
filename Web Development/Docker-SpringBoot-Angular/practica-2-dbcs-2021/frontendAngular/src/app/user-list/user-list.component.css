@@ -1,0 +1,19 @@
+#num {
+  width: 80px;
+}
+.table {
+  margin-top: 50px;
+}
+#enableButtons {
+  position: absolute;
+  right: 0px;
+}
+
+#disabled{
+  float: right;
+}
+
+#logout{
+  float: right;
+  margin-bottom: 20pt;
+}
