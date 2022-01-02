@@ -1,5 +1,9 @@
 # MyProjects
-Hey! I'm Édgar, a last year Informatics Engineering student at Valladolid University (specialized in Software Engeneering) .
-This repository contains my CV and some projects I've done to showcase my skills.
+Hey! I'm Édgar, a last year Software Engineering student at Universidad de Valladolid.
 
-I'm currently specializing to become a Data Scientist through personal projects and plan on studying a Masters in Big Data and Business Intelligence next year 2022.
+I'm currently specializing in Data Science through personal projects and self-teaching, focusing on:
+**  - Data Gathering:** SQL, Web Scraping, Excel.
+**  - Exploratory Data Analysis:** Python (Pandas).
+**  - Data Visualization:** Python (Matplotlib, Seaborn, Plotly), Microsoft Power BI.
+
+This repository contains my updated CV and some projects I've done to showcase my skills.
