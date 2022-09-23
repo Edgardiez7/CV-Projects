@@ -1,5 +1,5 @@
 # MyProjects
-Hey! I'm Édgar, a last year Software Engineering student at Universidad de Valladolid.
+Hey! I'm Édgar, a motivated and teamwork-oriented Software Engineer .
 
 I'm currently specializing in Data Science through personal projects and self-teaching, focusing on:
 * Data Gathering: SQL, Web Scraping, Excel.
