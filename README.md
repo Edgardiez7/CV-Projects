@@ -1,10 +1,4 @@
 # MyProjects
-Hey! I'm Édgar, a motivated and teamwork-oriented Software Engineer .
-
-I'm currently specializing in Data Science through personal projects and self-teaching, focusing on:
-* Data Gathering: SQL, Web Scraping, Excel.
-* Exploratory Data Analysis: Python (Pandas).
-* Data Visualization: Python (Matplotlib, Seaborn, Plotly), Microsoft Power BI.
-* Machine Learning: TensorFlow.
+Hey! I'm Édgar, a results-driven and teamwork-oriented Data Engineer with full-stack expertise, capable of building end-to-end data solutions. Passionate about transforming raw data into actionable intelligence to drive business value by designing and implementing scalable data architectures, robust ETL pipelines and creating insightful analytical models and dashboards.
 
 This repository contains my updated CV and some projects I've done to showcase my skills.
